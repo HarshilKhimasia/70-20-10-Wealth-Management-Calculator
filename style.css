@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+p{
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+div{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.color-red{
+    color: red;
+}
+
+.color-green{
+    color: green;
+}
+
+.year-block{
+    display: flex;
+}
+
+button{
+    padding: 6px 29px;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 1px 5px 0px black;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.minus{
+    background-color: red;
+    color: white;
+}
+
+.plus{
+    background-color: green;
+    color: white;
+}
+
+.total-wealth-para{
+    font-size: 40px !important;
+    font-weight: bolder !important;
+}
